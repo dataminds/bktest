@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Git, Github, Netlify"
+author: "안도현"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -9,14 +9,15 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "Introduction for linking git, github, and netlify."
 ---
 
 # Prerequisites
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+로컬컴퓨터에서 깃을 설치한다음, RStudio로 깃헙으로 동기화.
+깃헙의 내용을 자동으로 네틀리파이로 배포. 
 
-The **bookdown** package can be installed from CRAN or Github:
+
 
 ```{r eval=FALSE}
 install.packages("bookdown")
